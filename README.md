@@ -18,3 +18,13 @@ ___
 ### "nordcustom_v.3.yaml" this theme can be customized by removing comments inside.
 
 ![nord v 3](https://github.com/AntonRyadovoy/pwsh_profile/assets/131811768/a26b847d-11ea-4c57-8972-51db06f3b6ea)
+
+___
+
+### "everforest.omp.json" calm and minimalist everforest theme :)
+
+![everforest](https://github.com/user-attachments/assets/7e100fdb-03aa-4b07-91e8-a8d6e977b26b)
+
+
+
+
