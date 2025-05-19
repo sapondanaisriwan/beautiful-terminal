@@ -1,6 +1,6 @@
 ## 🚀 Installation
 
-### Shell Autocomplete
+### ⚙️ Shell Autocomplete Setup
 
 Install `inshellisense` globally using npm:
 
@@ -23,26 +23,37 @@ is init powershell | Add-Content $profile
 
 After running the appropriate command, restart your terminal or source the updated config file to apply the changes.
 
-### Terminal Theme
+### 🎨 Terminal Theme Setup (PowerShell)
 
 1. Install [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip)
 
-2. Open a PowerShell prompt and run the following command (Make sure `winget` is installed):
+2. Open PowerShell and install Oh My Posh using winget: (Make sure `winget` is installed):
 
-```
+```powershell
 winget install JanDeDobbeleer.OhMyPosh -s winget
-
 ```
 
-3.
+3. Open your PowerShell profile in Notepad (or any text editor):
 
+```powershell
+notepad $PROFILE
 ```
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+
+4. Add the following line to the end of your profile script:
+
+```powershell
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/sapondanaisriwan/beautiful-terminal/refs/heads/main/adashima.omp.json" | Invoke-Expression
 ```
 
-### VSCode Configuration
+5. Once added, reload your profile for the changes to take effect.
 
-1. Open VS Code
+```powershell
+. $PROFILE
+```
+
+### 🛠 VSCode Configuration
+
+1. Open Visual Studio Code.
 
 2. Press `Ctrl + Shift + P` and type "Open User Settings (JSON)" and select it.
 
