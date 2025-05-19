@@ -1,4 +1,9 @@
 <div align="center">
+
+# ✨ Beautiful Terminal ✨
+
+A beautiful and modern PowerShell theme with smart autocomplete.
+
  <img src="https://github.com/user-attachments/assets/9ddede24-d999-45aa-8474-ac10d7aa3ab2" width="100%"/>
 </div>
 
