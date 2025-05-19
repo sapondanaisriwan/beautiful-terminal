@@ -1,4 +1,11 @@
-## 🚀 Installation
+## 📚 Table of Contents
+
+- [🚀 Installation Guide](#-installation-guide)
+  - [⚙️ Shell Autocomplete Setup](#️-shell-autocomplete-setup)
+  - [🎨 Terminal Theme Setup (PowerShell)](#-terminal-theme-setup-powershell)
+  - [🛠 VS Code Configuration](#-vscode-configuration)
+
+## 🚀 Installation Guide
 
 ### ⚙️ Shell Autocomplete Setup
 
@@ -21,7 +28,9 @@ is init pwsh | Add-Content $profile
 is init powershell | Add-Content $profile
 ```
 
-After running the appropriate command, restart your terminal or source the updated config file to apply the changes.
+After running the appropriate command, restart your terminal or source the updated config file to apply 
+
+---
 
 ### 🎨 Terminal Theme Setup (PowerShell)
 
@@ -51,6 +60,8 @@ oh-my-posh init pwsh --config "https://raw.githubusercontent.com/sapondanaisriwa
 . $PROFILE
 ```
 
+---
+
 ### 🛠 VSCode Configuration
 
 1. Open Visual Studio Code.
@@ -67,7 +78,3 @@ oh-my-posh init pwsh --config "https://raw.githubusercontent.com/sapondanaisriwa
   // Sets the font used in the integrated terminal to "FiraCode Nerd Font".
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
 ```
-
-### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
-
-![adashima](https://github.com/user-attachments/assets/e00055d3-b51f-4a9a-b193-b8de575057e9)
