@@ -28,7 +28,7 @@ is init pwsh | Add-Content $profile
 is init powershell | Add-Content $profile
 ```
 
-After running the appropriate command, restart your terminal or source the updated config file to apply 
+After running the appropriate command, restart your terminal or source the updated config file to apply
 
 ---
 
@@ -71,10 +71,12 @@ oh-my-posh init pwsh --config "https://raw.githubusercontent.com/sapondanaisriwa
 3. Add the following lines inside the JSON object:
 
 ```json
+{
   // Sets PowerShell as the default terminal
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   // Sets the font used in the code editor to "FiraCode Nerd Font".
   "editor.fontFamily": "FiraCode Nerd Font",
   // Sets the font used in the integrated terminal to "FiraCode Nerd Font".
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font"
+}
 ```
