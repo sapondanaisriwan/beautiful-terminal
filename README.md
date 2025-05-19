@@ -34,6 +34,8 @@ After running the appropriate command, restart your terminal or source the updat
 
 ### 🎨 Terminal Theme Setup (PowerShell)
 
+I suggest following this [tutorial](https://youtu.be/-G6GbXGo4wo?si=m5Bc-zAgRinTZ5he&t=312) for better understanding.
+
 1. Install [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip).
 
 2. Open PowerShell and install Oh My Posh using winget: (Make sure `winget` is installed):
