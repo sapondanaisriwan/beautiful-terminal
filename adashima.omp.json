@@ -11,7 +11,6 @@
           },
           "leading_diamond": "\u256d\u2500\ue0b6",
           "template": "{{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
-          // "template": "{{ if .SSHSession }}\ueba9 {{ end }}@{{ .HostName }} ",
           "foreground": "#4C566A",
           "background": "#E5E9F0",
           "type": "session",
@@ -94,23 +93,6 @@
           "style": "powerline",
           "invert_powerline": true
         },
-        // {
-        //   "properties": {
-        //     "cache_duration": "none"
-        //   },
-        //   "template": "{{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 \ueb2d ",
-        //   "foreground": "#242424",
-        //   "powerline_symbol": "\ue0b2",
-        //   "background": "#A3BE8C",
-        //   "type": "battery",
-        //   "style": "powerline",
-        //   "background_templates": [
-        //     "{{if eq \"Charging\" .State.String}}#A3BE8C{{end}}",
-        //     "{{if eq \"Discharging\" .State.String}}#A3BE8C{{end}}",
-        //     "{{if eq \"Full\" .State.String}}#A3BE8C{{end}}"
-        //   ],
-        //   "invert_powerline": true
-        // },
         {
           "properties": {
             "cache_duration": "none"
