@@ -34,7 +34,7 @@ After running the appropriate command, restart your terminal or source the updat
 
 ### 🎨 Terminal Theme Setup (PowerShell)
 
-1. Install [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip)
+1. Install [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip).
 
 2. Open PowerShell and install Oh My Posh using winget: (Make sure `winget` is installed):
 
@@ -71,12 +71,10 @@ oh-my-posh init pwsh --config "https://raw.githubusercontent.com/sapondanaisriwa
 3. Add the following lines inside the JSON object:
 
 ```json
-{
   // Sets PowerShell as the default terminal
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   // Sets the font used in the code editor to "FiraCode Nerd Font".
   "editor.fontFamily": "FiraCode Nerd Font",
   // Sets the font used in the integrated terminal to "FiraCode Nerd Font".
   "terminal.integrated.fontFamily": "FiraCode Nerd Font"
-}
 ```
